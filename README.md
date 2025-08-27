@@ -15,19 +15,27 @@
 
 | *Kubernetes* | *1.27.x* | *1.28.x* | *1.29.x* | *1.30.x* | *1.31.x* | *1.32.x* | *1.33.x* |
 |--------------|----------|----------|----------|----------|----------|----------|----------|
-| *GKE*        | 1.27.13  | 1.28.9   | 1.29.4   | 1.30.1   | 1.31.2   | 1.32.1   | preview  |
-| *AKS*        | 1.27.13  | 1.28.9   | 1.29.4   | 1.30.1   | 1.31.2   | 1.32.1   | preview  |
-| *EKS*        | 1.27.13  | 1.28.9   | 1.29.4   | 1.30.1   | 1.31.2   | X        | X        |
-| *IKS*        | 1.27.13  | 1.28.9   | 1.29.4   | 1.30.1   | preview  | X        | X        |
-| *OKE*        | 1.27.13  | 1.28.9   | 1.29.4   | 1.30.1   | 1.31.2   | 1.32.1   | preview  |
-| *DOKS*       | 1.27.13  | 1.28.9   | 1.29.4   | 1.30.1   | 1.31.2   | 1.32.1   | preview  |
-| *OpenShift*  | 4.14+    | 4.15+    | 4.16+    | 4.17+    | 4.18+    | 4.19+    | 4.20+    |
-| *RKE*        | 1.27.13  | 1.28.9   | 1.29.4   | 1.30.1   | X        | X        | X        |
-| *RKE2*       | 1.27.13  | 1.28.9   | 1.29.4   | 1.30.1   | 1.31.2   | 1.32.1   | preview  |
-| *TKG*        | 1.27.13  | 1.28.9   | 1.29.4   | 1.30.1   | 1.31.2   | 1.32.1   | preview  |
-| *KOPS*       | 1.27.x   | 1.28.x   | 1.29.x   | 1.30.x   | 1.31.x   | X        | X        |
+| *GKE*        | Deprecated | Deprecated | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
+| *AKS*        | Deprecated | Deprecated | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
+| *EKS*        | Deprecated | Deprecated | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
+| *IKS*        | Deprecated | Deprecated | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | preview  |
+| *OKE*        | Deprecated | Deprecated | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | preview  |
+| *DOKS*       | Deprecated | Deprecated | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
+| *OpenShift*  | Unsupported | Unsupported | 4.16+    | 4.17+    | 4.18+    | 4.19+    | 4.20+    |
+| *RKE*        | 1.27.16  | 1.28.15  | 1.29.15  | 1.30.14  | 1.31.11  | 1.32.7   | X        |
+| *RKE2*       | Deprecated | Deprecated | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
+| *TKG*        | Deprecated | Deprecated | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | preview  |
+| *KOPS*       | Deprecated | Deprecated | 1.29.x   | 1.30.x   | 1.31.x   | 1.32.x   | preview  |
 
 > RKE versions based on the latest release, for older versions you need to use a specific release
+
+> **Status Indicators:**
+> - **Specific version** (e.g., 1.30.6): Fully supported and available for deployment
+> - **preview**: Available in preview/beta, not yet generally available
+> - **Deprecated**: Still available but deprecated, will be removed in future releases
+> - **Unsupported**: No longer available for new deployments
+> - **X**: Not supported or not yet available
+
 > **Note:** The version numbers shown for OpenShift (e.g., 4.10+, 4.11+, etc.) are OpenShift platform versions, *not* Kubernetes versions. This differs from all other vendors in the table, who show Kubernetes versions. OpenShift versions follow Red Hat's versioning scheme and may include custom Kubernetes patches.
 
 ## References
@@ -41,7 +49,7 @@
 
 *OKE* - [https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengaboutk8sversions.htm](https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengaboutk8sversions.htm)
 
-*DOKS* - [https://docs.digitalocean.com/products/kubernetes/details/supported-versions/](https://docs.digitalocean.com/products/kubernetes/details/supported-versions/)
+*DOKS* - [https://docs.digitalocean.com/products/kubernetes/](https://docs.digitalocean.com/products/kubernetes/)
 
 *OpenShift* - [https://docs.openshift.com/container-platform/latest/release_notes/ocp-release-notes.html](https://docs.openshift.com/container-platform/latest/release_notes/ocp-release-notes.html)
 
