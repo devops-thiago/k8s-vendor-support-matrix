@@ -2,7 +2,7 @@
 
 Always reference these instructions first and fallback to search or bash commands only when you encounter unexpected information that does not match the info here.
 
-This is a documentation-only repository that maintains a Kubernetes version support matrix across different cloud providers and platforms (GKE, IKS, RKE, EKS, KOPS). The repository contains only Markdown documentation with no code to build, test, or run.
+This is a documentation-only repository that maintains a Kubernetes version support matrix across different cloud providers and platforms (GKE, AKS, EKS, IKS, OKE, DOKS, OpenShift, RKE, RKE2, TKG, KOPS). The repository contains only Markdown documentation with no code to build, test, or run.
 
 ## Working Effectively
 
@@ -45,7 +45,7 @@ This is a documentation-only repository that maintains a Kubernetes version supp
 
 ### Manual Content Validation:
 - Verify all Kubernetes version numbers follow semantic versioning (e.g., 1.16.8)
-- Ensure vendor names are consistent: *GKE*, *IKS*, *RKE*, *EKS*, *KOPS* (italicized)
+- Ensure vendor names are consistent: *GKE*, *AKS*, *EKS*, *IKS*, *OKE*, *DOKS*, *OpenShift*, *RKE*, *RKE2*, *TKG*, *KOPS* (italicized)
 - Check that "X" is used for future/unavailable versions
 - Confirm reference URLs are valid and point to official vendor documentation
 
@@ -73,10 +73,16 @@ README.md
 
 ### Reference Links to Validate
 - GKE: https://cloud.google.com/kubernetes-engine/docs/release-notes
-- IKS: https://cloud.ibm.com/docs/containers?topic=containers-cs_versions#cs_versions  
+- AKS: https://docs.microsoft.com/en-us/azure/aks/supported-kubernetes-versions
+- EKS: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html
+- IKS: https://cloud.ibm.com/docs/containers?topic=containers-cs_versions
+- OKE: https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengaboutk8sversions.htm
+- DOKS: https://docs.digitalocean.com/products/kubernetes/details/supported-versions/
+- OpenShift: https://docs.openshift.com/container-platform/latest/release_notes/ocp-release-notes.html
 - RKE: https://github.com/rancher/rke/releases
-- EKS: https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html
-- KOPS: https://github.com/kubernetes/kops/blob/master/README.md
+- RKE2: https://github.com/rancher/rke2/releases
+- TKG: https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/
+- KOPS: https://github.com/kubernetes/kops/releases
 
 ## Timing Expectations
 - Markdown linting: ~2 seconds
