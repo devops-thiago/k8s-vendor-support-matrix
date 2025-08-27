@@ -15,9 +15,9 @@
 
 | *Kubernetes* | *1.27.x* | *1.28.x* | *1.29.x* | *1.30.x* | *1.31.x* | *1.32.x* | *1.33.x* |
 |--------------|----------|----------|----------|----------|----------|----------|----------|
-| *GKE*        | Deprecated | Deprecated | 1.29.9   | 1.30.6   | 1.31.3   | 1.32.2   | 1.33.1   |
+| *GKE*        | Deprecated | Deprecated | 1.29.9   | 1.30.6   | 1.31.3   | 1.32.6   | 1.33.2   |
 | *AKS*        | Deprecated | Deprecated | 1.29.9   | 1.30.6   | 1.31.3   | 1.32.2   | 1.33.1   |
-| *EKS*        | Deprecated | Deprecated | 1.29.9   | 1.30.6   | 1.31.3   | 1.32.2   | preview  |
+| *EKS*        | Deprecated | Deprecated | 1.29.9   | 1.30.6   | 1.31.3   | 1.32.2   | 1.33.1   |
 | *IKS*        | Deprecated | Deprecated | 1.29.9   | 1.30.6   | 1.31.3   | preview  | preview  |
 | *OKE*        | Deprecated | Deprecated | 1.29.9   | 1.30.6   | 1.31.3   | 1.32.2   | preview  |
 | *DOKS*       | Deprecated | Deprecated | 1.29.9   | 1.30.6   | 1.31.3   | 1.32.2   | 1.33.1   |
@@ -49,7 +49,7 @@
 
 *OKE* - [https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengaboutk8sversions.htm](https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengaboutk8sversions.htm)
 
-*DOKS* - [https://docs.digitalocean.com/products/kubernetes/details/supported-versions/](https://docs.digitalocean.com/products/kubernetes/details/supported-versions/)
+*DOKS* - [https://docs.digitalocean.com/products/kubernetes/](https://docs.digitalocean.com/products/kubernetes/)
 
 *OpenShift* - [https://docs.openshift.com/container-platform/latest/release_notes/ocp-release-notes.html](https://docs.openshift.com/container-platform/latest/release_notes/ocp-release-notes.html)
 
