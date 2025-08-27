@@ -1,6 +1,7 @@
 # Kubernetes Supported Version Matrix
 
 ## Vendors
+
 - **GKE**: Google Kubernetes Engine
 - **AKS**: Azure Kubernetes Service
 - **EKS**: Amazon Elastic Kubernetes Service
@@ -30,6 +31,7 @@
 > RKE versions based on the latest release, for older versions you need to use a specific release
 
 > **Status Indicators:**
+>
 > - **Specific version** (e.g., 1.30.6): Fully supported and available for new deployments
 > - **LTS**: Long-term support version with extended maintenance lifecycle
 > - **Extended Support**: Still supported but with limited updates, maintenance mode only
@@ -45,28 +47,34 @@
 Different vendors have varying support policies for Kubernetes versions:
 
 ### Cloud Providers (GKE, AKS, EKS, IKS, OKE)
+
 - **End-of-Life**: Kubernetes versions are automatically deprecated and eventually removed from new cluster creation
 - **Extended Support**: Some providers offer extended support for older versions (typically for enterprise customers)
 - **LTS**: Long-term support versions are maintained for extended periods with security updates
 
 ### DigitalOcean Kubernetes (DOKS)
+
 - Uses a more aggressive deprecation policy with shorter support windows
 - Focuses on recent stable versions for optimal performance and security
 
 ### Red Hat OpenShift
+
 - Follows Red Hat's enterprise support lifecycle
 - **Unsupported**: Very old versions are completely discontinued
 - **End-of-Life**: Versions no longer receiving updates but may still be deployable
 
 ### Rancher (RKE/RKE2)
+
 - RKE maintains broader version support across the Kubernetes release spectrum
 - RKE2 follows a more structured support model with clear LTS designations
 
 ### VMware TKG & KOPS
+
 - Follow upstream Kubernetes support policies closely
 - Provide extended support for enterprise deployments
 
 ## References
+
 *GKE* - [https://cloud.google.com/kubernetes-engine/docs/release-notes](https://cloud.google.com/kubernetes-engine/docs/release-notes)
 
 *AKS* - [https://docs.microsoft.com/en-us/azure/aks/supported-kubernetes-versions](https://docs.microsoft.com/en-us/azure/aks/supported-kubernetes-versions)
