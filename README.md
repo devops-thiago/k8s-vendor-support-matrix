@@ -1,13 +1,13 @@
 # Kubernetes Supported Version Matrix
-| *Kubernetes* | *1.11.x*    | *1.12.x*    | *1.13.x*    | *1.14.x*   | *1.15.x* | *1.16.x* | *1.17.x* | *1.18.x* |
-|--------------|-------------|-------------|-------------|------------|----------|----------|----------|----------|
-| *GKE*        | Unsupported | Unsupported | 1.13.12     | 1.14.10    | 1.15.9   | 1.16.8   | preview  | X        |
-| *IKS*        | Unsupported | Unsupported | Unsupported | Deprecated | 1.15.11  | 1.16.8   | 1.17.4   | X        |
-| *RKE*        | Any*        | Any*        | Any*        | 1.14.9     | 1.15.11  | 1.16.8   | 1.17.4   | X        |
-| *EKS*        | Unsupported | 1.12.10     | 1.13.12     | 1.14.9     | 1.15.10  | X        | X        | X        |
-| *KOPS*       | Unsupported | Deprecated  | Deprecated  | 1.14.x     | 1.15.x   | 1.16.x   | X        | X        |
+| *Kubernetes* | *1.23.x*   | *1.24.x*   | *1.25.x*   | *1.26.x*   | *1.27.x* | *1.28.x* | *1.29.x* | *1.30.x* |
+|--------------|------------|------------|------------|------------|----------|----------|----------|----------|
+| *GKE*        | 1.23.17    | 1.24.17    | 1.25.16    | 1.26.15    | 1.27.13  | 1.28.9   | 1.29.4   | 1.30.1   |
+| *IKS*        | 1.23.17    | 1.24.17    | 1.25.16    | 1.26.15    | 1.27.13  | 1.28.9   | 1.29.4   | Preview  |
+| *RKE*        | 1.23.17    | 1.24.17    | 1.25.16    | 1.26.15    | 1.27.13  | 1.28.9   | 1.29.4   | X        |
+| *EKS*        | 1.23.17    | 1.24.17    | 1.25.16    | 1.26.15    | 1.27.13  | 1.28.9   | 1.29.4   | X        |
+| *KOPS*       | 1.23.x     | 1.24.x     | 1.25.x     | 1.26.x     | 1.27.x   | 1.28.x   | 1.29.x   | X        |
 
-> RKE versions based on the lastes release, for older versions you need to use specific release
+> RKE versions based on the latest release, for older versions you need to use specific release
 
 ## References
 *GKE* - [https://cloud.google.com/kubernetes-engine/docs/release-notes](https://cloud.google.com/kubernetes-engine/docs/release-notes)
