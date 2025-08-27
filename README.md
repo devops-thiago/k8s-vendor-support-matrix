@@ -28,7 +28,7 @@
 | *KOPS*       | 1.14.x     | 1.15.x   | 1.16.x   | 1.17.x   | 1.18.x   | 1.19.x   | 1.20.x   | 1.21.x   | 1.22.x   | 1.23.x   | 1.24+     |
 
 > RKE versions based on the latest release, for older versions you need to use specific release
-> OpenShift versions follow Red Hat's versioning scheme and may include custom Kubernetes patches
+> **Note:** The version numbers shown for OpenShift (e.g., 4.3+, 4.4+, etc.) are OpenShift platform versions, *not* Kubernetes versions. This differs from all other vendors in the table, who show Kubernetes versions. OpenShift versions follow Red Hat's versioning scheme and may include custom Kubernetes patches.
 
 ## References
 *GKE* - [https://cloud.google.com/kubernetes-engine/docs/release-notes](https://cloud.google.com/kubernetes-engine/docs/release-notes)
