@@ -11,3 +11,6 @@ package-lock.json
 *.tmp
 *.temp
 .DS_Store
+
+# GitHub Actions logs and artifacts
+.github-actions-cache/
