@@ -14,7 +14,7 @@ This is a documentation-only repository that maintains a Kubernetes version supp
 
 ### Validation Commands (ALWAYS RUN BEFORE COMMITTING)
 - Check markdown formatting: `npx markdownlint README.md`
-  - Takes ~2 seconds. Expected formatting issues include line length (>80 chars) for table rows.
+  - Takes <1 second. Expected formatting issues include line length (>80 chars) for table rows.
 - Validate external links: `npx markdown-link-check README.md` 
   - Takes ~10-15 seconds. NEVER CANCEL. Some cloud provider links may be temporarily inaccessible.
 - Check git status: `git --no-pager status`
