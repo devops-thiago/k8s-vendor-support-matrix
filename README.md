@@ -43,7 +43,7 @@
 
 *DOKS* - [https://docs.digitalocean.com/products/kubernetes/details/supported-versions/](https://docs.digitalocean.com/products/kubernetes/details/supported-versions/)
 
-*OpenShift* - [https://docs.openshift.com/container-platform/4.11/release_notes/ocp-4-11-release-notes.html](https://docs.openshift.com/container-platform/4.11/release_notes/ocp-4-11-release-notes.html)
+*OpenShift* - [https://docs.openshift.com/container-platform/latest/release_notes/ocp-release-notes.html](https://docs.openshift.com/container-platform/latest/release_notes/ocp-release-notes.html)
 
 *RKE* - [https://github.com/rancher/rke/releases](https://github.com/rancher/rke/releases)
 
