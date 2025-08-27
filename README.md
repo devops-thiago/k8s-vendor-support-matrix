@@ -13,22 +13,22 @@
 - **TKG**: VMware Tanzu Kubernetes Grid
 - **KOPS**: Kubernetes Operations
 
-| *Kubernetes* | *1.14.x*   | *1.15.x* | *1.16.x* | *1.17.x* | *1.18.x* | *1.19.x* | *1.20.x* | *1.21.x* | *1.22.x* | *1.23.x* | *1.24.x+ |
-|--------------|------------|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
-| *GKE*        | 1.14.10    | 1.15.12  | 1.16.15  | 1.17.17  | 1.18.20  | 1.19.16  | 1.20.15  | 1.21.14  | 1.22.17  | 1.23.17  | 1.24+     |
-| *AKS*        | 1.14.8     | 1.15.12  | 1.16.15  | 1.17.17  | 1.18.20  | 1.19.16  | 1.20.15  | 1.21.14  | 1.22.17  | 1.23.17  | 1.24+     |
-| *EKS*        | 1.14.9     | 1.15.12  | 1.16.15  | 1.17.17  | 1.18.20  | 1.19.16  | 1.20.15  | 1.21.14  | 1.22.17  | 1.23.17  | 1.24+     |
-| *IKS*        | Deprecated | 1.15.11  | 1.16.15  | 1.17.17  | 1.18.20  | 1.19.16  | 1.20.15  | 1.21.14  | 1.22.17  | 1.23.17  | 1.24+     |
-| *OKE*        | 1.14.8     | 1.15.7   | 1.16.15  | 1.17.17  | 1.18.20  | 1.19.16  | 1.20.15  | 1.21.14  | 1.22.17  | 1.23.17  | 1.24+     |
-| *DOKS*       | 1.14.1     | 1.15.12  | 1.16.15  | 1.17.17  | 1.18.20  | 1.19.16  | 1.20.15  | 1.21.14  | 1.22.17  | 1.23.17  | 1.24+     |
-| *OpenShift*  | Unsupported| Unsupported| 4.3+     | 4.4+     | 4.5+     | 4.6+     | 4.7+     | 4.8+     | 4.9+     | 4.10+    | 4.11+     |
-| *RKE*        | 1.14.9     | 1.15.11  | 1.16.15  | 1.17.17  | 1.18.20  | 1.19.16  | 1.20.15  | 1.21.14  | 1.22.17  | 1.23.17  | 1.24+     |
-| *RKE2*       | Unsupported| Unsupported| 1.16.15  | 1.17.17  | 1.18.20  | 1.19.16  | 1.20.15  | 1.21.14  | 1.22.17  | 1.23.17  | 1.24+     |
-| *TKG*        | Unsupported| 1.15.5   | 1.16.12  | 1.17.13  | 1.18.15  | 1.19.16  | 1.20.15  | 1.21.14  | 1.22.17  | 1.23.17  | 1.24+     |
-| *KOPS*       | 1.14.x     | 1.15.x   | 1.16.x   | 1.17.x   | 1.18.x   | 1.19.x   | 1.20.x   | 1.21.x   | 1.22.x   | 1.23.x   | 1.24+     |
+| *Kubernetes* | *1.23.x*   | *1.24.x*   | *1.25.x*   | *1.26.x*   | *1.27.x* | *1.28.x* | *1.29.x* | *1.30.x* | *1.31.x* |
+|--------------|------------|------------|------------|------------|----------|----------|----------|----------|----------|
+| *GKE*        | 1.23.17    | 1.24.17    | 1.25.16    | 1.26.15    | 1.27.13  | 1.28.9   | 1.29.4   | 1.30.1   | preview  |
+| *AKS*        | 1.23.17    | 1.24.17    | 1.25.16    | 1.26.15    | 1.27.13  | 1.28.9   | 1.29.4   | 1.30.1   | preview  |
+| *EKS*        | 1.23.17    | 1.24.17    | 1.25.16    | 1.26.15    | 1.27.13  | 1.28.9   | 1.29.4   | X        | X        |
+| *IKS*        | 1.23.17    | 1.24.17    | 1.25.16    | 1.26.15    | 1.27.13  | 1.28.9   | 1.29.4   | preview  | X        |
+| *OKE*        | 1.23.17    | 1.24.17    | 1.25.16    | 1.26.15    | 1.27.13  | 1.28.9   | 1.29.4   | 1.30.1   | preview  |
+| *DOKS*       | 1.23.17    | 1.24.17    | 1.25.16    | 1.26.15    | 1.27.13  | 1.28.9   | 1.29.4   | 1.30.1   | preview  |
+| *OpenShift*  | 4.10+      | 4.11+      | 4.12+      | 4.13+      | 4.14+    | 4.15+    | 4.16+    | 4.17+    | 4.18+    |
+| *RKE*        | 1.23.17    | 1.24.17    | 1.25.16    | 1.26.15    | 1.27.13  | 1.28.9   | 1.29.4   | X        | X        |
+| *RKE2*       | 1.23.17    | 1.24.17    | 1.25.16    | 1.26.15    | 1.27.13  | 1.28.9   | 1.29.4   | 1.30.1   | preview  |
+| *TKG*        | 1.23.17    | 1.24.17    | 1.25.16    | 1.26.15    | 1.27.13  | 1.28.9   | 1.29.4   | 1.30.1   | preview  |
+| *KOPS*       | 1.23.x     | 1.24.x     | 1.25.x     | 1.26.x     | 1.27.x   | 1.28.x   | 1.29.x   | X        | X        |
 
-> RKE versions based on the latest release, for older versions you need to use specific release
-> **Note:** The version numbers shown for OpenShift (e.g., 4.3+, 4.4+, etc.) are OpenShift platform versions, *not* Kubernetes versions. This differs from all other vendors in the table, who show Kubernetes versions. OpenShift versions follow Red Hat's versioning scheme and may include custom Kubernetes patches.
+> RKE versions based on the latest release, for older versions you need to use a specific release
+> **Note:** The version numbers shown for OpenShift (e.g., 4.10+, 4.11+, etc.) are OpenShift platform versions, *not* Kubernetes versions. This differs from all other vendors in the table, who show Kubernetes versions. OpenShift versions follow Red Hat's versioning scheme and may include custom Kubernetes patches.
 
 ## References
 *GKE* - [https://cloud.google.com/kubernetes-engine/docs/release-notes](https://cloud.google.com/kubernetes-engine/docs/release-notes)
