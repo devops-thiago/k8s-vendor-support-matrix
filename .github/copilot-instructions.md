@@ -75,7 +75,7 @@ README.md
 - GKE: https://cloud.google.com/kubernetes-engine/docs/release-notes
 - AKS: https://docs.microsoft.com/en-us/azure/aks/supported-kubernetes-versions
 - EKS: https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html
-- IKS: https://cloud.ibm.com/docs/containers#cs_versions
+- IKS: https://cloud.ibm.com/docs/containers?topic=containers-cs_versions#cs_versions
 - OKE: https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengaboutk8sversions.htm
 - DOKS: https://docs.digitalocean.com/products/kubernetes/details/supported-versions/
 - OpenShift: https://docs.openshift.com/container-platform/latest/release_notes/ocp-release-notes.html
