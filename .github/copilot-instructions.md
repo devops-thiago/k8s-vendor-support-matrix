@@ -82,7 +82,7 @@ README.md
 - RKE: https://github.com/rancher/rke/releases
 - RKE2: https://github.com/rancher/rke2/releases
 - TKG: https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/
-- KOPS: https://github.com/kubernetes/kops/releases
+- KOPS: https://github.com/kubernetes/kops/blob/master/README.md
 
 ## Timing Expectations
 - Markdown linting: ~2 seconds
