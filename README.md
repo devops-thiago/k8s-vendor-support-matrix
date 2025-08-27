@@ -33,7 +33,6 @@
 > - **Specific version** (e.g., 1.30.6): Fully supported and available for new deployments
 > - **LTS**: Long-term support version with extended maintenance lifecycle
 > - **Extended Support**: Still supported but with limited updates, maintenance mode only
-> - **Deprecated**: No longer available for new deployments, but still supported for existing clusters (maintenance only)
 > - **End-of-Life**: No longer supported, security updates may be unavailable
 > - **Unsupported**: Never supported or completely discontinued
 > - **preview**: Available in preview/beta, not yet generally available
