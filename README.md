@@ -18,7 +18,7 @@
 |--------------|----------|----------|----------|----------|----------|----------|----------|
 | *GKE*        | End-of-Life | Extended Support | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
 | *AKS*        | End-of-Life | Extended Support | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
-| *EKS*        | End-of-Life | Extended Support | 1.29.15 LTS | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
+| *EKS*        | End-of-Life | Extended Support | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
 | *IKS*        | End-of-Life | Extended Support | 1.29.15  | 1.30.14 LTS | 1.31.12  | 1.32.8   | preview  |
 | *OKE*        | End-of-Life | Extended Support | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | preview  |
 | *DOKS*       | End-of-Life | Extended Support | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
