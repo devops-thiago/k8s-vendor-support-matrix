@@ -24,7 +24,7 @@
 | *DOKS*       | End-of-Life | Extended Support | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
 | *OpenShift*  | Unsupported | End-of-Life | 4.16+    | 4.17+    | 4.18+    | 4.19+    | 4.20+    |
 | *RKE*        | 1.27.16  | 1.28.15  | 1.29.15  | 1.30.14  | 1.31.11  | 1.32.7   | X        |
-| *RKE2*       | End-of-Life | Extended Support | 1.29.15  | 1.30.14 LTS | 1.31.12  | 1.32.8   | 1.33.4   |
+| *RKE2*       | End-of-Life | Extended Support | 1.29.15  | 1.30.14     | 1.31.12  | 1.32.8   | 1.33.4   |
 | *TKG*        | End-of-Life | Extended Support | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | preview  |
 | *KOPS*       | End-of-Life | Extended Support | 1.29.x   | 1.30.x   | 1.31.x   | 1.32.x   | preview  |
 
