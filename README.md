@@ -37,7 +37,7 @@
 
 *EKS* - [https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html](https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html)
 
-*IKS* - [https://cloud.ibm.com/docs/containers?topic=containers-cs_versions](https://cloud.ibm.com/docs/containers?topic=containers-cs_versions)
+*IKS* - [https://cloud.ibm.com/docs/containers?topic=containers-cs_versions#cs_versions](https://cloud.ibm.com/docs/containers?topic=containers-cs_versions#cs_versions)
 
 *OKE* - [https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengaboutk8sversions.htm](https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengaboutk8sversions.htm)
 
