@@ -15,16 +15,16 @@
 
 | *Kubernetes* | *1.27.x* | *1.28.x* | *1.29.x* | *1.30.x* | *1.31.x* | *1.32.x* | *1.33.x* |
 |--------------|----------|----------|----------|----------|----------|----------|----------|
-| *GKE*        | Deprecated | Deprecated | 1.29.9   | 1.30.6   | 1.31.3   | 1.32.6   | 1.33.2   |
-| *AKS*        | Deprecated | Deprecated | 1.29.9   | 1.30.6   | 1.31.3   | 1.32.2   | 1.33.1   |
-| *EKS*        | Deprecated | Deprecated | 1.29.9   | 1.30.6   | 1.31.3   | 1.32.2   | 1.33.1   |
-| *IKS*        | Deprecated | Deprecated | 1.29.9   | 1.30.6   | 1.31.3   | preview  | preview  |
-| *OKE*        | Deprecated | Deprecated | 1.29.9   | 1.30.6   | 1.31.3   | 1.32.2   | preview  |
-| *DOKS*       | Deprecated | Deprecated | 1.29.9   | 1.30.6   | 1.31.3   | 1.32.2   | 1.33.1   |
+| *GKE*        | Deprecated | Deprecated | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
+| *AKS*        | Deprecated | Deprecated | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
+| *EKS*        | Deprecated | Deprecated | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
+| *IKS*        | Deprecated | Deprecated | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | preview  |
+| *OKE*        | Deprecated | Deprecated | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | preview  |
+| *DOKS*       | Deprecated | Deprecated | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
 | *OpenShift*  | Unsupported | Unsupported | 4.16+    | 4.17+    | 4.18+    | 4.19+    | 4.20+    |
-| *RKE*        | 1.27.16  | 1.28.15  | 1.29.9   | 1.30.6   | X        | X        | X        |
-| *RKE2*       | Deprecated | Deprecated | 1.29.9   | 1.30.6   | 1.31.3   | 1.32.2   | preview  |
-| *TKG*        | Deprecated | Deprecated | 1.29.9   | 1.30.6   | 1.31.3   | 1.32.2   | preview  |
+| *RKE*        | 1.27.16  | 1.28.15  | 1.29.15  | 1.30.14  | 1.31.11  | 1.32.7   | X        |
+| *RKE2*       | Deprecated | Deprecated | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
+| *TKG*        | Deprecated | Deprecated | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | preview  |
 | *KOPS*       | Deprecated | Deprecated | 1.29.x   | 1.30.x   | 1.31.x   | 1.32.x   | preview  |
 
 > RKE versions based on the latest release, for older versions you need to use a specific release
