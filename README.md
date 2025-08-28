@@ -16,17 +16,17 @@
 
 | *Kubernetes* | *1.27.x* | *1.28.x* | *1.29.x* | *1.30.x* | *1.31.x* | *1.32.x* | *1.33.x* |
 |--------------|----------|----------|----------|----------|----------|----------|----------|
-| *GKE*        | End-of-Life | Extended Support | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
-| *AKS*        | End-of-Life | Extended Support | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
-| *EKS*        | End-of-Life | Extended Support | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
-| *IKS*        | End-of-Life | Extended Support | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | preview  |
-| *OKE*        | End-of-Life | Extended Support | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | preview  |
-| *DOKS*       | End-of-Life | Extended Support | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
-| *OpenShift*  | Unsupported | End-of-Life | 4.16+    | 4.17+    | 4.18+    | 4.19+    | 4.20+    |
+| *GKE*        | End-of-Life | End-of-Life | Extended Support | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
+| *AKS*        | End-of-Life | End-of-Life | LTS      | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
+| *EKS*        | End-of-Life | End-of-Life | Extended Support | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
+| *IKS*        | End-of-Life | End-of-Life | Extended Support | LTS      | 1.31.12  | 1.32.8   | preview  |
+| *OKE*        | End-of-Life | End-of-Life | Extended Support | 1.30.14  | 1.31.12  | 1.32.8   | preview  |
+| *DOKS*       | End-of-Life | End-of-Life | End-of-Life | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
+| *OpenShift*  | Unsupported | End-of-Life | End-of-Life | 4.17+    | 4.18+    | 4.19+    | 4.20+    |
 | *RKE*        | 1.27.16  | 1.28.15  | 1.29.15  | 1.30.14  | 1.31.11  | 1.32.7   | X        |
-| *RKE2*       | End-of-Life | Extended Support | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | 1.33.4   |
-| *TKG*        | End-of-Life | Extended Support | 1.29.15  | 1.30.14  | 1.31.12  | 1.32.8   | preview  |
-| *KOPS*       | End-of-Life | Extended Support | 1.29.x   | 1.30.x   | 1.31.x   | 1.32.x   | preview  |
+| *RKE2*       | End-of-Life | End-of-Life | Extended Support | LTS      | 1.31.12  | 1.32.8   | 1.33.4   |
+| *TKG*        | End-of-Life | End-of-Life | Extended Support | 1.30.14  | 1.31.12  | 1.32.8   | preview  |
+| *KOPS*       | End-of-Life | End-of-Life | Extended Support | 1.30.x   | 1.31.x   | 1.32.x   | preview  |
 
 > RKE versions based on the latest release, for older versions you need to use a specific release
 
@@ -49,8 +49,8 @@ Different vendors have varying support policies for Kubernetes versions:
 ### Cloud Providers (GKE, AKS, EKS, IKS, OKE)
 
 - **End-of-Life**: Kubernetes versions are automatically deprecated and eventually removed from new cluster creation
-- **Extended Support**: Some providers offer extended support for older versions (typically for enterprise customers)
-- **LTS**: Long-term support versions are maintained for extended periods with security updates
+- **Extended Support**: GKE and EKS offer extended support for older versions (typically for enterprise customers)
+- **LTS**: AKS and IKS offer Long-term support versions maintained for extended periods with security updates
 
 ### DigitalOcean Kubernetes (DOKS)
 
@@ -66,7 +66,7 @@ Different vendors have varying support policies for Kubernetes versions:
 ### Rancher (RKE/RKE2)
 
 - RKE maintains broader version support across the Kubernetes release spectrum
-- RKE2 follows a more structured support model with clear LTS designations
+- RKE2 follows a more structured support model with LTS designations for stable versions
 
 ### VMware TKG & KOPS
 
