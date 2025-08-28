@@ -31,7 +31,6 @@
 > RKE versions based on the latest release, for older versions you need to use a specific release
 
 > **Status Indicators:**
->
 > - **Specific version** (e.g., 1.30.6): Fully supported and available for new deployments
 > - **LTS**: Long-term support version with extended maintenance lifecycle
 > - **Extended Support**: Still supported but with limited updates, maintenance mode only
